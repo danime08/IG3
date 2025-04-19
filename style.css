@@ -1,114 +1,64 @@
 body {
     font-family: Arial, sans-serif;
-    background: #f5f5f5;
+    background: #f8f9fa;
+    color: #333;
     margin: 0;
     padding: 0;
   }
   
   header {
-    background: #2c3e50;
+    background-color: #007bff;
     color: white;
-    padding: 20px;
+    padding: 1rem;
     text-align: center;
+  }
+  
+  nav {
+    margin-top: 1rem;
   }
   
   nav a {
-    color: white;
-    margin: 0 10px;
+    color: white !important;
+    margin: 0 1rem;
     text-decoration: none;
+    font-weight: bold;
   }
   
   main {
-    padding: 20px;
+    padding: 2rem 0;
   }
   
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    background: white;
+  h1, h2, h4 {
+    font-weight: 600;
   }
   
-  th {
-    background: #3498db;
+  .table thead th {
+    background-color: #343a40;
     color: white;
   }
   
-  th, td {
-    padding: 10px;
-    text-align: center;
+  canvas {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
   }
   
   footer {
-    background: #2c3e50;
-    color: white;
     text-align: center;
-    padding: 10px;
-    margin-top: 20px;
-  }
-
-  /* General Styles (same for all pages) */
-body {
-    font-family: Arial, sans-serif;
-    background: #f5f5f5;
-    margin: 0;
-    padding: 0;
+    padding: 1rem;
+    background-color: #eee;
   }
   
-  header {
-    background: #2c3e50;
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
+  /* Responsive Fixes */
+  @media screen and (max-width: 768px) {
+    body {
+      font-size: 90%;
+    }
   
-  nav a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
+    nav {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
   }
-  
-  nav a:hover {
-    text-decoration: underline;
-  }
-  
-  main {
-    padding: 20px;
-    background-color: #ffffff;
-    margin: 20px auto;
-    width: 80%;
-    max-width: 900px;
-  }
-  
-  h1, h2 {
-    color: #2c3e50;
-  }
-  
-  #links-list {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  #links-list li {
-    margin-bottom: 10px;
-  }
-  
-  #links-list a {
-    color: #3498db;
-    text-decoration: none;
-    font-size: 18px;
-  }
-  
-  #links-list a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Footer Styles */
-  footer {
-    background: #2c3e50;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
-  }
-  
   
